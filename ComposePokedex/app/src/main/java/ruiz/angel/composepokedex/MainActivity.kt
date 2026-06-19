@@ -31,6 +31,7 @@ import androidx.compose.ui.unit.dp
 import androidx.compose.ui.zIndex
 import ruiz.angel.composepokedex.components.Ability
 import ruiz.angel.composepokedex.components.Chip
+import ruiz.angel.composepokedex.components.MorePokemons
 import ruiz.angel.composepokedex.domain.Pokemon
 import ruiz.angel.composepokedex.ui.theme.ComposePokedexTheme
 import ruiz.angel.composepokedex.ui.theme.ElectricYellow
@@ -126,6 +127,16 @@ fun PokemonCard(name:String, number:Int, description:String,
                     .align(Alignment.CenterHorizontally)
                     .padding(top = 25.dp)) {
                     Text(description)
+                }
+            }
+
+            Box(modifier = Modifier.fillMaxSize()) {
+                Row(modifier = Modifier.fillMaxWidth()
+                    .align(Alignment.BottomCenter)
+                    .padding(top = 15.dp),
+                    horizontalArrangement = Arrangement.SpaceEvenly) {
+                    MorePokemons("left", R.drawable.p24, "Arbok", "0024")
+                    MorePokemons("right", R.drawable.p26, "Raichu", "0026")
                 }
             }
         }
