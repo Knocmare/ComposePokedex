@@ -1,0 +1,23 @@
+R_DEF: Internal format may change without notice
+local
+color black
+color purple_200
+color purple_500
+color purple_700
+color teal_200
+color teal_700
+color white
+drawable ic_launcher_background
+drawable ic_launcher_foreground
+drawable p24
+drawable p26
+drawable pikachu
+drawable pokeball
+drawable star_filled
+drawable star_outline
+mipmap ic_launcher
+mipmap ic_launcher_round
+string app_name
+style Theme.ComposePokedex
+xml backup_rules
+xml data_extraction_rules

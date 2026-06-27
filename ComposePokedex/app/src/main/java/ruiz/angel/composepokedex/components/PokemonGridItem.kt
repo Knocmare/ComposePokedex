@@ -2,10 +2,12 @@ package ruiz.angel.composepokedex.components
 
 import androidx.compose.foundation.Image
 import androidx.compose.foundation.background
+import androidx.compose.foundation.clickable
 import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.Box
 import androidx.compose.foundation.layout.Column
 import androidx.compose.foundation.layout.Row
+import androidx.compose.foundation.layout.fillMaxWidth
 import androidx.compose.foundation.layout.size
 import androidx.compose.foundation.shape.RoundedCornerShape
 import androidx.compose.material3.Text
@@ -24,8 +26,8 @@ import ruiz.angel.composepokedex.domain.Pokemon
 import ruiz.angel.composepokedex.ui.theme.ElectricYellow
 
 @Composable
-fun PokemonGridItem(pokemon: Pokemon) {
-    Column(horizontalAlignment = Alignment.CenterHorizontally) {
+fun PokemonGridItem(pokemon: Pokemon, onClick: () -> Unit = {}) {
+    Column(Modifier.fillMaxWidth().clickable{onClick()}, horizontalAlignment = Alignment.CenterHorizontally) {
         Box {
             Image(
                 painter = painterResource(pokemon.image),

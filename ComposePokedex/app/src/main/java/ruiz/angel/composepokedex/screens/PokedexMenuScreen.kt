@@ -10,19 +10,23 @@ import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
 import ruiz.angel.composepokedex.components.PokemonGridItem
 import ruiz.angel.composepokedex.domain.Pokemon
+import ruiz.angel.composepokedex.dummies.pokemonList
 import ruiz.angel.composepokedex.dummies.showPokemonList
 
 @Composable
-fun PokedexMenuScreen(pokemons: List<Pokemon>) {
+fun PokedexMenuScreen(pokemonList: List<Pokemon>, onPokemonClick:(Int) -> Unit = {}) {
     LazyVerticalGrid(
         columns = GridCells.Fixed(3),
         contentPadding = PaddingValues(5.dp, 5.dp),
         verticalArrangement = Arrangement.spacedBy(10.dp),
         horizontalArrangement = Arrangement.spacedBy(10.dp)
     ) {
-        items(pokemons){
+        items(pokemonList){
             pokemon ->
-            PokemonGridItem(pokemon)
+            PokemonGridItem(pokemon,
+                onClick = {
+                    onPokemonClick(pokemonList.indexOf(pokemon))
+                })
         }
     }
 }

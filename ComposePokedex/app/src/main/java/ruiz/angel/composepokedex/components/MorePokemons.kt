@@ -25,9 +25,12 @@ import ruiz.angel.composepokedex.ui.theme.ElectricYellow
 import ruiz.angel.composepokedex.ui.theme.White
 
 @Composable
-fun MorePokemons(position: String, image: Int, name: String, number: String) {
+fun MorePokemons(position: String, image: Int, name: String, number: String, modifier: Modifier = Modifier) {
     if (position == "left") {
-        Column(horizontalAlignment = Alignment.CenterHorizontally) {
+        Column(
+            modifier = modifier,
+            horizontalAlignment = Alignment.CenterHorizontally
+        ) {
             Image(
                 painter = painterResource(image),
                 contentDescription = "Imagen del pokemon",
@@ -52,11 +55,14 @@ fun MorePokemons(position: String, image: Int, name: String, number: String) {
                         fontWeight = FontWeight.Bold
                     )
                 }
-                Text("${name} N.° ${number}")
+                Text(" ${name} N.° ${number}")
             }
         }
     } else if (position == "right") {
-        Column(horizontalAlignment = Alignment.CenterHorizontally) {
+        Column(
+            modifier = modifier,
+            horizontalAlignment = Alignment.CenterHorizontally
+        ) {
             Image(
                 painter = painterResource(image),
                 contentDescription = "Imagen del pokemon",
@@ -65,7 +71,7 @@ fun MorePokemons(position: String, image: Int, name: String, number: String) {
                     .size(130.dp)
             )
             Row {
-                Text("${name} N.° ${number}")
+                Text("${name} N.° ${number} ")
                 Column (
                     Modifier.size(20.dp, 20.dp)
                         .background(

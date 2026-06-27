@@ -1,0 +1,122 @@
+[
+    {
+        "merged": "ruiz.angel.composepokedex.app-debug-37:/drawable_p26.png.flat",
+        "source": "ruiz.angel.composepokedex.app-main-39:/drawable/p26.png"
+    },
+    {
+        "merged": "ruiz.angel.composepokedex.app-debug-37:/drawable-xhdpi_pikachu.png.flat",
+        "source": "ruiz.angel.composepokedex.app-main-39:/drawable-xhdpi/pikachu.png"
+    },
+    {
+        "merged": "ruiz.angel.composepokedex.app-debug-37:/drawable-mdpi_pokeball.png.flat",
+        "source": "ruiz.angel.composepokedex.app-main-39:/drawable-mdpi/pokeball.png"
+    },
+    {
+        "merged": "ruiz.angel.composepokedex.app-debug-37:/mipmap-anydpi_ic_launcher.xml.flat",
+        "source": "ruiz.angel.composepokedex.app-main-39:/mipmap-anydpi/ic_launcher.xml"
+    },
+    {
+        "merged": "ruiz.angel.composepokedex.app-debug-37:/drawable-hdpi_pokeball.png.flat",
+        "source": "ruiz.angel.composepokedex.app-main-39:/drawable-hdpi/pokeball.png"
+    },
+    {
+        "merged": "ruiz.angel.composepokedex.app-debug-37:/mipmap-xhdpi_ic_launcher_round.webp.flat",
+        "source": "ruiz.angel.composepokedex.app-main-39:/mipmap-xhdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "ruiz.angel.composepokedex.app-debug-37:/drawable_ic_launcher_foreground.xml.flat",
+        "source": "ruiz.angel.composepokedex.app-main-39:/drawable/ic_launcher_foreground.xml"
+    },
+    {
+        "merged": "ruiz.angel.composepokedex.app-debug-37:/drawable-mdpi_pikachu.png.flat",
+        "source": "ruiz.angel.composepokedex.app-main-39:/drawable-mdpi/pikachu.png"
+    },
+    {
+        "merged": "ruiz.angel.composepokedex.app-debug-37:/mipmap-xhdpi_ic_launcher.webp.flat",
+        "source": "ruiz.angel.composepokedex.app-main-39:/mipmap-xhdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "ruiz.angel.composepokedex.app-debug-37:/mipmap-xxhdpi_ic_launcher.webp.flat",
+        "source": "ruiz.angel.composepokedex.app-main-39:/mipmap-xxhdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "ruiz.angel.composepokedex.app-debug-37:/drawable-xxxhdpi_pikachu.png.flat",
+        "source": "ruiz.angel.composepokedex.app-main-39:/drawable-xxxhdpi/pikachu.png"
+    },
+    {
+        "merged": "ruiz.angel.composepokedex.app-debug-37:/drawable-xxhdpi_pokeball.png.flat",
+        "source": "ruiz.angel.composepokedex.app-main-39:/drawable-xxhdpi/pokeball.png"
+    },
+    {
+        "merged": "ruiz.angel.composepokedex.app-debug-37:/drawable-xhdpi_pokeball.png.flat",
+        "source": "ruiz.angel.composepokedex.app-main-39:/drawable-xhdpi/pokeball.png"
+    },
+    {
+        "merged": "ruiz.angel.composepokedex.app-debug-37:/mipmap-xxhdpi_ic_launcher_round.webp.flat",
+        "source": "ruiz.angel.composepokedex.app-main-39:/mipmap-xxhdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "ruiz.angel.composepokedex.app-debug-37:/mipmap-hdpi_ic_launcher.webp.flat",
+        "source": "ruiz.angel.composepokedex.app-main-39:/mipmap-hdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "ruiz.angel.composepokedex.app-debug-37:/mipmap-xxxhdpi_ic_launcher_round.webp.flat",
+        "source": "ruiz.angel.composepokedex.app-main-39:/mipmap-xxxhdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "ruiz.angel.composepokedex.app-debug-37:/mipmap-xxxhdpi_ic_launcher.webp.flat",
+        "source": "ruiz.angel.composepokedex.app-main-39:/mipmap-xxxhdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "ruiz.angel.composepokedex.app-debug-37:/mipmap-mdpi_ic_launcher_round.webp.flat",
+        "source": "ruiz.angel.composepokedex.app-main-39:/mipmap-mdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "ruiz.angel.composepokedex.app-debug-37:/drawable-xxhdpi_pikachu.png.flat",
+        "source": "ruiz.angel.composepokedex.app-main-39:/drawable-xxhdpi/pikachu.png"
+    },
+    {
+        "merged": "ruiz.angel.composepokedex.app-debug-37:/drawable_star_outline.xml.flat",
+        "source": "ruiz.angel.composepokedex.app-main-39:/drawable/star_outline.xml"
+    },
+    {
+        "merged": "ruiz.angel.composepokedex.app-debug-37:/drawable_ic_launcher_background.xml.flat",
+        "source": "ruiz.angel.composepokedex.app-main-39:/drawable/ic_launcher_background.xml"
+    },
+    {
+        "merged": "ruiz.angel.composepokedex.app-debug-37:/drawable-xxxhdpi_pokeball.png.flat",
+        "source": "ruiz.angel.composepokedex.app-main-39:/drawable-xxxhdpi/pokeball.png"
+    },
+    {
+        "merged": "ruiz.angel.composepokedex.app-debug-37:/xml_data_extraction_rules.xml.flat",
+        "source": "ruiz.angel.composepokedex.app-main-39:/xml/data_extraction_rules.xml"
+    },
+    {
+        "merged": "ruiz.angel.composepokedex.app-debug-37:/mipmap-hdpi_ic_launcher_round.webp.flat",
+        "source": "ruiz.angel.composepokedex.app-main-39:/mipmap-hdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "ruiz.angel.composepokedex.app-debug-37:/mipmap-mdpi_ic_launcher.webp.flat",
+        "source": "ruiz.angel.composepokedex.app-main-39:/mipmap-mdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "ruiz.angel.composepokedex.app-debug-37:/drawable-hdpi_pikachu.png.flat",
+        "source": "ruiz.angel.composepokedex.app-main-39:/drawable-hdpi/pikachu.png"
+    },
+    {
+        "merged": "ruiz.angel.composepokedex.app-debug-37:/mipmap-anydpi_ic_launcher_round.xml.flat",
+        "source": "ruiz.angel.composepokedex.app-main-39:/mipmap-anydpi/ic_launcher_round.xml"
+    },
+    {
+        "merged": "ruiz.angel.composepokedex.app-debug-37:/drawable_p24.png.flat",
+        "source": "ruiz.angel.composepokedex.app-main-39:/drawable/p24.png"
+    },
+    {
+        "merged": "ruiz.angel.composepokedex.app-debug-37:/xml_backup_rules.xml.flat",
+        "source": "ruiz.angel.composepokedex.app-main-39:/xml/backup_rules.xml"
+    },
+    {
+        "merged": "ruiz.angel.composepokedex.app-debug-37:/drawable_star_filled.xml.flat",
+        "source": "ruiz.angel.composepokedex.app-main-39:/drawable/star_filled.xml"
+    }
+]
